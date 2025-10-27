@@ -1,5 +1,9 @@
 body {
     margin: 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(background/somepink_bg.png);
+    background-size: cover;
+    background-position: center;
+
 }
 
 
@@ -16,7 +20,6 @@ main {
     display: flex;
     justify-content: space-evenly;
     padding: 2rem;
-    background: url(background/red_bg.jpg) center;
 }
 .offers-card { 
     background: url(background/black_bg.png);
@@ -29,15 +32,30 @@ main {
     height: 500px;
     color: white;
     text-align: center;
-    text-shadow: 1px 1px #000;
+}
+
+.offers-img-box {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1rem; 
+      height: 300px;
 }
 
 .offers-card img {
-    width: 250px;
-    height: 250x;
+    height: 400px;
     object-fit: cover;
-    border-radius: 1px;
+    border-radius: 4%;
 
+}
+
+.offers-text {
+    margin: 0;
+    padding: 1%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
 }
 
 nav ul {
@@ -51,7 +69,6 @@ nav ul {
 
 .navbar li { 
     color: rgb(255, 255, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 15px;
     display: block;
     text-align: center;
