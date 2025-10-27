@@ -1,31 +1,53 @@
-body {
-    margin: 0px;
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Toy Shop Store </title>
+        <link rel="stylesheet" href="draft_website.css">
+    </head>
+    <body>
 
-h1 {
-    text-align: left;
-}
+        <header>
+            <nav class="navbar"> 
+                <ul> 
+                    <li> Toy Shop StuffShop </li>
+                    <li> Products </li>
+                </ul>
+            </nav>
+        </header>
+            <h1> WELCOME TO  TOY SHOP STUFF SHOP STORE! </h1>
+            <section class="offers">
+                <div class="offers-card">
+                <h2> WE SELL STUFF BEARS </h2>
+                <p> With different kinds of hypoallergenic, and non-hypoallergenic stuff toys!
+                <img src="img/collete_stuff_bar.png" alt="stuff bear">
+                </div>
+                <div class="offers-card"> 
+                    <h2> BEST PRICE STUFF TOYS </h2>
+                    <p> Not only bears, but we also sell different stuff toys! </p>
+                </div>
+                <div class="offers-card"> 
+                    
+                    <h2> DRY GOODS </h2>
+                    <p> Buy some goods on our local store! </p>
+                </div>
+                </div>
+             </section>
 
-main {
-    margin-left: 20px;
-    margin-right: 20px;
-}
+             <section> 
+                <h1> NEW ARRIVAL!</h1>
+                <p> Insert new arrival description </p>
+             </section>
 
-nav ul {
-    list-style: none;
-    background-color: rgb(223, 146, 158);
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-}
+            </section>
+            <section id="Products"> <!-- Insert teddy bear images -->
+                <img>
+                <h2> Hypo-Teddy Bear </h2>
+                <p> 0 pesos </p>
+            </section>
+        
 
-.navbar li { 
-    color: rgb(255, 255, 255);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 15px;
-    display: block;
-    text-align: center;
-    text-shadow: -1px 1px rgb(99, 95, 96);
-    float: left;
-}
 
+
+
+    </body>
+</html>
